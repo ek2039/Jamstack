@@ -1,0 +1,17 @@
+{
+  "name": "JAMStack",
+  "version": "1.0.0",
+  "description": "- [1. The JAMStack, AJAX and Static Site Generation](#1-the-jamstack-ajax-and-static-site-generation)   - [1.1. Homework](#11-homework)   - [1.2. Reading](#12-reading)   - [1.3. Goals](#13-goals)   - [1.4. Static Site Generation](#14-static-site-generation)     - [1.4.1. The Jamstack](#141-the-jamstack)     - [1.4.2. Eleventy](#142-eleventy)     - [1.4.3. Initial Setup](#143-initial-setup)     - [1.4.4. Create a Layout Template](#144-create-a-layout-template)     - [1.6.1. Markdown](#161-markdown)     - [1.6.2. Create a Collection](#162-create-a-collection)     - [1.7.1. Templating and Front Matter](#171-templating-and-front-matter)       - [1.7.1.1. Collections](#1711-collections)       - [1.7.1.2. HTML and Markdown](#1712-html-and-markdown)     - [1.7.2. Simplify the Posts Collection](#172-simplify-the-posts-collection)     - [1.7.3. Commit and Deploy](#173-commit-and-deploy)   - [1.8. Ajax](#18-ajax)     - [1.8.1. Fetch](#181-fetch)     - [1.8.2. Rest API](#182-rest-api)     - [1.8.3. Looping](#183-looping)     - [1.8.4. Second Deploy](#184-second-deploy)   - [1.9. Notes](#19-notes)",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "install": "^0.13.0",
+    "npm": "^7.18.1"
+  }
+}

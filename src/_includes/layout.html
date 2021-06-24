@@ -11,7 +11,8 @@
     <nav>
       <ul>
         {% for page in collections.page %}
-        <li>{{ page.data.navTitle }}</li>
+        <!-- <li>{{ page.data.navTitle }}</li> -->
+        <a href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
         {% endfor %}
       </ul>
     </nav>

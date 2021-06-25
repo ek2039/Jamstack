@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/css/styles.css" />
-    <title>My Blog</title>
+    <title>{{site.name}}</title>
   </head>
-  <body>
+  <body class="{{ pageClass }}">
     <nav>
       <ul>
+        <!-- NEW -->
+        <li><a href="/">Home</a></li>
         {% for page in collections.page %}
-        <!-- <li>{{ page.data.navTitle }}</li> -->
-        <a href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
+        <li>
+          <a href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
+        </li>
         {% endfor %}
       </ul>
     </nav>

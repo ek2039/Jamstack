@@ -1,15 +1,15 @@
 ---
 layout: layout.html
 pageTitle: New York Today
-navTitle: Home
-tags:
-  - page
 ---
 
 ## Articles
 
-{% for page in collections.page %}
+<!-- {% for page in collections.page %} -->
+<!-- <h2><a href="{{ page.url }}">{{ page.data.pageTitle | upcase }}</a></h2>
+<em>{{ page.date | date: "%Y-%m-%d" }}</em>
+{% endfor %} -->
 
-  <h2><a href="{{ page.url }}">{{ page.data.pageTitle }}</a></h2>
-  <em>{{ page.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}
+<div class="stories">Loading...</div>
+
+<button>Show Stories</button>

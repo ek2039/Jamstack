@@ -52,10 +52,17 @@ button {
   color: #fff;
   border-radius: 4px;
   font-size: 1rem;
-  width: 4rem;
+  /* width: 4rem; */
 }
 
 .pics .content img {
   width: 60%;
   padding: 1rem;
+}
+
+.pictures img {
+  max-width: 50%;
+}
+.pictures h1 {
+  color: rgb(11, 123, 11);
 }

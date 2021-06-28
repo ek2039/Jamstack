@@ -33,8 +33,13 @@ function showData(stories) {
     .map(
       (story) => `
     <div class="item">
-      <h3>${story.title}</h3>
-      <p>${story.abstract}</p>
+    <img src="${story.multimedia[0].url}"> </img>
+    <p>${story.multimedia[0].caption}</p>
+    <h3 class="title">${story.title}</h3>
+    <p>${story.abstract}</p>
+    <p>${story.byline}</p>
+     
+  
     </div>
   `
     )

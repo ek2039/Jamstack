@@ -78,6 +78,23 @@ button {
 .stories .title {
   color: rgb(102, 126, 190);
 }
+
+.stories .caption {
+  color: rgb(41, 38, 38);
+  font-style: italic;
+  font-size: x-small;
+}
+
+.stories .abstruct {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.stories .upd {
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  position: relative;
+}
 .stories .item {
   border-bottom: 1px dashed #aaa;
 }

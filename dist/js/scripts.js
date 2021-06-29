@@ -34,10 +34,11 @@ function showData(stories) {
       (story) => `
     <div class="item">
     <img src="${story.multimedia[0].url}"> </img>
-    <p>${story.multimedia[0].caption}</p>
+    <p class="caption">${story.multimedia[0].caption}</p>
     <h3 class="title">${story.title}</h3>
-    <p>${story.abstract}</p>
+    <p class="abstruct">${story.abstract}</p>
     <p>${story.byline}</p>
+    <p class="upd">Updated date:${story.updated_date}</p>
      
   
     </div>
